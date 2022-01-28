@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/app.js",
-    "build": "rm -rf ./dist && tsc -p .",
+    "build": "tsc -p .",
+    "_build": "rm -rf ./dist && tsc -p .",
     "dev": "ts-node-dev ./src/app.ts"
   },
   "keywords": [],
