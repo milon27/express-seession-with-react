@@ -37,4 +37,4 @@ app.post('/', (req, res) => {
 })
 
 const port = process.env.PORT || 2727
-app.listen(port, () => console.log("running"))
+app.listen(port, () => console.log("running on port" + port))
