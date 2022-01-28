@@ -1,7 +1,10 @@
 import express from 'express'
 import expressSession from 'express-session'
 import cors from 'cors'
+import doenv from 'dotenv'
 var FileStore = require('session-file-store')(expressSession);
+
+doenv.config()
 
 const app = express()
 
