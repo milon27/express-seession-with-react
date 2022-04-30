@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.12",
-    "@types/express-session": "1.17.4",
+    "@types/express-session": "^1.17.4",
     "@types/node": "17.0.13",
     "@types/session-file-store": "^1.2.2",
     "ts-node": "10.4.0",
